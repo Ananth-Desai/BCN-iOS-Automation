@@ -27,7 +27,7 @@ Mobile.tap(findTestObject('Object Repository/Onboarding/XCUIElementTypeCell (1)'
 
 Mobile.tap(findTestObject('Object Repository/Onboarding/XCUIElementTypeButton - Continue'), 0)
 
-Mobile.swipe(180, 0, 0, 0)
+Mobile.swipe(600, 600, 300, 600)
 
 Mobile.swipe(400, 0, 0, 0)
 

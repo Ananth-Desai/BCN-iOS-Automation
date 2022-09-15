@@ -1,14 +1,14 @@
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 65401
+[35m[Appium][39m   port: 51155
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: /var/folders/z3/h28fmgj945v4j5m1z0xr_jn40000gn/T//Katalon/Appium/Temp1663225769346
-[35m[Appium][39m   chromedriverPort: 65402
+[35m[Appium][39m   tmpDir: /var/folders/z3/h28fmgj945v4j5m1z0xr_jn40000gn/T//Katalon/Appium/Temp1663227750836
+[35m[Appium][39m   chromedriverPort: 51156
 [35m[Appium][39m Deprecated server args:
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 65402
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:65401
+[35m[Appium][39m   chromedriverPort: 51156
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:51155
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 68[39m
@@ -18,7 +18,7 @@
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/ananthdesai/Desktop/Barcelona New.app","noReset":true,"deviceName":"iPhone 13 Pro","fullReset":false,"wdaLocalPort":65412,"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"15.2","automationName":"XCUITest","waitForAppScript":"true;","platformName":"iOS","udid":"7CDE8E13-D5AA-48F4-8A39-0A9EA663DF69"},"capabilities":{"firstMatch":[{"appium:app":"/Users/ananthdesai/Desktop/Barcelona New.app","appium:automationName":"XCUITest","appium:deviceName":"iPhone 13 Pro","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platformName":"ios","appium:platformVersion":"15.2","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"7CDE8E13-D5AA-48F4-8A39-0A9EA663DF69","appium:waitForAppScript":"true;","appium:wdaLocalPort":65412}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/ananthdesai/Desktop/Barcelona New.app","noReset":true,"deviceName":"iPhone 13 Pro","fullReset":false,"wdaLocalPort":51164,"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"15.2","automationName":"XCUITest","waitForAppScript":"true;","platformName":"iOS","udid":"7CDE8E13-D5AA-48F4-8A39-0A9EA663DF69"},"capabilities":{"firstMatch":[{"appium:app":"/Users/ananthdesai/Desktop/Barcelona New.app","appium:automationName":"XCUITest","appium:deviceName":"iPhone 13 Pro","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platformName":"ios","appium:platformVersion":"15.2","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"7CDE8E13-D5AA-48F4-8A39-0A9EA663DF69","appium:waitForAppScript":"true;","appium:wdaLocalPort":51164}]}}[39m
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   realDeviceLogger
 [35m[BaseDriver][39m   chromedriverPort
@@ -27,7 +27,7 @@
 [35m[BaseDriver][39m   realDeviceLogger
 [35m[BaseDriver][39m   chromedriverPort
 [35m[BaseDriver][39m   waitForAppScript
-[35m[BaseDriver][39m Session created with session id: 189c8733-1ea3-48fe-82b2-364917e18858
+[35m[BaseDriver][39m Session created with session id: c29c1768-8e61-45e7-b2d7-55b078760de4
 [35m[iOSSim][39m Constructing iOS simulator for Xcode version 13.2.1 with udid '7CDE8E13-D5AA-48F4-8A39-0A9EA663DF69'
 [35m[XCUITest][39m Determining device to run tests on: udid: '7CDE8E13-D5AA-48F4-8A39-0A9EA663DF69', real device: false
 [35m[BaseDriver][39m Using local app '/Users/ananthdesai/Desktop/Barcelona New.app'
@@ -35,314 +35,1181 @@
 [35m[WebDriverAgent][39m Using WDA agent: '/opt/homebrew/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
 [35m[XCUITest][39m Setting up simulator
 [35m[iOSSim][39m Both Simulator with UDID '7CDE8E13-D5AA-48F4-8A39-0A9EA663DF69' and the UI client are currently running
-[35m[DevCon Factory][39m Requesting connection for device 7CDE8E13-D5AA-48F4-8A39-0A9EA663DF69 on local port 65412
-[35m[DevCon Factory][39m Successfully requested the connection for 7CDE8E13-D5AA-48F4-8A39-0A9EA663DF69:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
+[35m[DevCon Factory][39m Requesting connection for device 7CDE8E13-D5AA-48F4-8A39-0A9EA663DF69 on local port 51164
+[35m[DevCon Factory][39m Successfully requested the connection for 7CDE8E13-D5AA-48F4-8A39-0A9EA663DF69:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
 [35m[WebDriverAgent][39m Launching WebDriverAgent on the device
 [35m[WebDriverAgent][39m WebDriverAgent does not need a cleanup. The sources are up to date (1662971377320 >= 1662971377320)
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:65412
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51164
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
-[35m[Appium][39m New XCUITestDriver session created successfully, session 189c8733-1ea3-48fe-82b2-364917e18858 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m44958 ms - 723[39m
+[35m[Appium][39m New XCUITestDriver session created successfully, session c29c1768-8e61-45e7-b2d7-55b078760de4 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m45856 ms - 723[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858 [39m[32m200[39m [90m211 ms - 667[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4 [39m[32m200[39m [90m161 ms - 667[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858 [39m[32m200[39m [90m1 ms - 667[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4 [39m[32m200[39m [90m1 ms - 667[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m0 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/timeouts [39m[32m200[39m [90m1 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
 [35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync [39m[32m200[39m [90m2846 ms - 9214[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m1005 ms - 16202[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot [39m[32m200[39m [90m272 ms - 1035900[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m232 ms - 640992[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Answer']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element [39m[32m200[39m [90m221 ms - 137[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/window/rect[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/window/rect [39m[32m200[39m [90m40 ms - 48[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Answer']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/elements [39m[32m200[39m [90m248 ms - 395[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/06000000-0000-0000-DA00-000000000000/location[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/06000000-0000-0000-DA00-000000000000/location [39m[32m200[39m [90m25 ms - 26[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/06000000-0000-0000-DA00-000000000000/clear[39m
-[35m[HTTP][39m [90m{"id":"06000000-0000-0000-DA00-000000000000"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/06000000-0000-0000-DA00-000000000000/clear [39m[32m200[39m [90m365 ms - 14[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/06000000-0000-0000-DA00-000000000000/value[39m
-[35m[HTTP][39m [90m{"id":"06000000-0000-0000-DA00-000000000000","text":"Surya Institution","value":["S","u","r","y","a"," ","I","n","s","t","i","t","u","t","i","o","n"]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/06000000-0000-0000-DA00-000000000000/value [39m[32m200[39m [90m333 ms - 14[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
 [35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync [39m[32m200[39m [90m929 ms - 17520[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m267 ms - 6228[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot [39m[32m200[39m [90m109 ms - 928508[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m90 ms - 610612[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Answer']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element [39m[32m200[39m [90m229 ms - 137[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeImage' and @name = 'Chevron Right']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m140 ms - 137[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/window/rect[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/window/rect [39m[32m200[39m [90m40 ms - 48[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m24 ms - 48[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Answer']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/elements [39m[32m200[39m [90m341 ms - 267[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeImage' and @name = 'Chevron Right']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m106 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/07000000-0000-0000-DA00-000000000000/location[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6A000000-0000-0000-A014-000000000000/location[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/07000000-0000-0000-DA00-000000000000/location [39m[32m200[39m [90m24 ms - 26[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6A000000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m17 ms - 27[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/07000000-0000-0000-DA00-000000000000/clear[39m
-[35m[HTTP][39m [90m{"id":"07000000-0000-0000-DA00-000000000000"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/07000000-0000-0000-DA00-000000000000/clear [39m[32m200[39m [90m518 ms - 14[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6A000000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"6A000000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6A000000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m126 ms - 65[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/07000000-0000-0000-DA00-000000000000/value[39m
-[35m[HTTP][39m [90m{"id":"07000000-0000-0000-DA00-000000000000","text":"Test","value":["T","e","s","t"]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/07000000-0000-0000-DA00-000000000000/value [39m[32m200[39m [90m124 ms - 14[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
 [35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync [39m[32m200[39m [90m905 ms - 17516[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m566 ms - 13868[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot [39m[32m200[39m [90m96 ms - 800176[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m79 ms - 369800[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Answer']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element [39m[32m200[39m [90m328 ms - 137[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'India' and @name = 'India' and @value = 'India']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m190 ms - 137[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/window/rect[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/window/rect [39m[32m200[39m [90m37 ms - 48[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m25 ms - 48[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Answer']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/elements [39m[32m200[39m [90m213 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'India' and @name = 'India' and @value = 'India']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m193 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/52000000-0000-0000-DA00-000000000000/location[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/7B000000-0000-0000-A014-000000000000/location[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/52000000-0000-0000-DA00-000000000000/location [39m[32m200[39m [90m24 ms - 26[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/7B000000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m19 ms - 26[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/52000000-0000-0000-DA00-000000000000/clear[39m
-[35m[HTTP][39m [90m{"id":"52000000-0000-0000-DA00-000000000000"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/52000000-0000-0000-DA00-000000000000/clear [39m[32m200[39m [90m505 ms - 14[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/7B000000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"7B000000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/7B000000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m639 ms - 65[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/52000000-0000-0000-DA00-000000000000/value[39m
-[35m[HTTP][39m [90m{"id":"52000000-0000-0000-DA00-000000000000","text":"Surya","value":["S","u","r","y","a"]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/52000000-0000-0000-DA00-000000000000/value [39m[32m200[39m [90m125 ms - 14[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
 [35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync [39m[32m200[39m [90m852 ms - 17513[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m240 ms - 6246[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot [39m[32m200[39m [90m92 ms - 746928[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m86 ms - 614892[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'What was the name of your first school?' and @name = 'What was the name of your first school?' and @value = 'What was the name of your first school?']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element [39m[32m200[39m [90m341 ms - 137[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Mobile Number' and @name = 'Mobile Number' and @value = 'Mobile Number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m141 ms - 137[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/window/rect[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/window/rect [39m[32m200[39m [90m29 ms - 48[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m18 ms - 48[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'What was the name of your first school?' and @name = 'What was the name of your first school?' and @value = 'What was the name of your first school?']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/elements [39m[32m200[39m [90m338 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Mobile Number' and @name = 'Mobile Number' and @value = 'Mobile Number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m130 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/51000000-0000-0000-DA00-000000000000/location[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6B000000-0000-0000-A014-000000000000/location[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/51000000-0000-0000-DA00-000000000000/location [39m[32m200[39m [90m24 ms - 26[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6B000000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m16 ms - 26[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/51000000-0000-0000-DA00-000000000000/click[39m
-[35m[HTTP][39m [90m{"id":"51000000-0000-0000-DA00-000000000000"}[39m
-[35m[W3C (189c8733)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 8ECC6EAD-C8EC-4801-9A07-CC1655FED247 with 189c8733-1ea3-48fe-82b2-364917e18858
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/51000000-0000-0000-DA00-000000000000/click [39m[32m200[39m [90m144 ms - 65[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6B000000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"6B000000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6B000000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m2330 ms - 65[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
 [35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync [39m[32m200[39m [90m437 ms - 7999[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m239 ms - 6246[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot [39m[32m200[39m [90m95 ms - 835564[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m85 ms - 614892[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Submit' and @name = 'Submit']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element [39m[32m200[39m [90m137 ms - 137[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Mobile number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m215 ms - 137[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/window/rect[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/window/rect [39m[32m200[39m [90m19 ms - 48[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m47 ms - 48[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Submit' and @name = 'Submit']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/elements [39m[32m200[39m [90m135 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Mobile number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m200 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/29000000-0000-0000-DA00-000000000000/location[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/66000000-0000-0000-A014-000000000000/location[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/29000000-0000-0000-DA00-000000000000/location [39m[32m200[39m [90m21 ms - 26[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/66000000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m18 ms - 27[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/29000000-0000-0000-DA00-000000000000/click[39m
-[35m[HTTP][39m [90m{"id":"29000000-0000-0000-DA00-000000000000"}[39m
-[35m[W3C (189c8733)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 8ECC6EAD-C8EC-4801-9A07-CC1655FED247 with 189c8733-1ea3-48fe-82b2-364917e18858
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/29000000-0000-0000-DA00-000000000000/click [39m[32m200[39m [90m127 ms - 65[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/66000000-0000-0000-A014-000000000000/clear[39m
+[35m[HTTP][39m [90m{"id":"66000000-0000-0000-A014-000000000000"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/66000000-0000-0000-A014-000000000000/clear [39m[32m200[39m [90m756 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/66000000-0000-0000-A014-000000000000/value[39m
+[35m[HTTP][39m [90m{"id":"66000000-0000-0000-A014-000000000000","text":"9764013529","value":["9","7","6","4","0","1","3","5","2","9"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/66000000-0000-0000-A014-000000000000/value [39m[32m200[39m [90m226 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
 [35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync [39m[32m200[39m [90m374 ms - 8579[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m479 ms - 11291[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot [39m[32m200[39m [90m99 ms - 857888[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m92 ms - 664224[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Sign In' and @name = 'Sign In']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m188 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m24 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Sign In' and @name = 'Sign In']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m299 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/62000000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/62000000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m20 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/62000000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"62000000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/62000000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m132 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
 [35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync [39m[32m200[39m [90m421 ms - 10630[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m479 ms - 9186[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot [39m[32m200[39m [90m96 ms - 827160[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m98 ms - 656540[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Yes' and @name = 'Yes']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m169 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m24 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Yes' and @name = 'Yes']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m146 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B1000000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B1000000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m18 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B1000000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"B1000000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B1000000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m628 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m286 ms - 6922[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m91 ms - 717244[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m549 ms - 10139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m88 ms - 585896[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Enter OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m261 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m34 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Enter OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m132 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B7000000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B7000000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m20 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B7000000-0000-0000-A014-000000000000/clear[39m
+[35m[HTTP][39m [90m{"id":"B7000000-0000-0000-A014-000000000000"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B7000000-0000-0000-A014-000000000000/clear [39m[32m200[39m [90m441 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B7000000-0000-0000-A014-000000000000/value[39m
+[35m[HTTP][39m [90m{"id":"B7000000-0000-0000-A014-000000000000","text":"000000","value":["0","0","0","0","0","0"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B7000000-0000-0000-A014-000000000000/value [39m[32m200[39m [90m124 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m543 ms - 10135[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m89 ms - 615048[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Verify OTP' and @name = 'Verify OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m293 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m26 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Verify OTP' and @name = 'Verify OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m169 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/C7000000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/C7000000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m19 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/C7000000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"C7000000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/C7000000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m973 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m393 ms - 4375[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m74 ms - 373636[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Forgot Password?' and @name = 'Forgot Password?']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m92 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m17 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Forgot Password?' and @name = 'Forgot Password?']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m89 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/DC000000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/DC000000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m18 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/DC000000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"DC000000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/DC000000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m113 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m453 ms - 11077[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m92 ms - 806416[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeImage' and @name = 'Chevron Right']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m134 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m20 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeImage' and @name = 'Chevron Right']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m122 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/F6000000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/F6000000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m17 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/F6000000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"F6000000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/F6000000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m123 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m264 ms - 6115[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m81 ms - 620812[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Chevron Right' and @name = 'Chevron Right']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m114 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m18 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Chevron Right' and @name = 'Chevron Right']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m116 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/02010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/02010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m16 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/02010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"02010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/02010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m118 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m368 ms - 6115[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m87 ms - 620812[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeCell']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m76 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m22 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeCell']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m74 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/FD000000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/FD000000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m15 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/FD000000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"FD000000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/FD000000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m624 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m361 ms - 9119[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m92 ms - 682840[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Yes' and @name = 'Yes']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m154 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m20 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Yes' and @name = 'Yes']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m141 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/16010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/16010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m17 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/16010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"16010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/16010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m628 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m452 ms - 10226[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m91 ms - 592196[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Enter OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m258 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m34 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Enter OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m137 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/23010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/23010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m19 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/23010000-0000-0000-A014-000000000000/clear[39m
+[35m[HTTP][39m [90m{"id":"23010000-0000-0000-A014-000000000000"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/23010000-0000-0000-A014-000000000000/clear [39m[32m200[39m [90m449 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/23010000-0000-0000-A014-000000000000/value[39m
+[35m[HTTP][39m [90m{"id":"23010000-0000-0000-A014-000000000000","text":"000000","value":["0","0","0","0","0","0"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/23010000-0000-0000-A014-000000000000/value [39m[32m200[39m [90m125 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m428 ms - 10123[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m88 ms - 612756[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Verify OTP' and @name = 'Verify OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m181 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m24 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Verify OTP' and @name = 'Verify OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m276 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/21010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/21010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m20 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/21010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"21010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/21010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m966 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m307 ms - 7934[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m90 ms - 539824[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
 [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Try Again' and @name = 'Try Again']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element [39m[32m200[39m [90m166 ms - 137[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m256 ms - 137[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/window/rect[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/window/rect [39m[32m200[39m [90m23 ms - 48[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m21 ms - 48[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/elements[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
 [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Try Again' and @name = 'Try Again']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/elements [39m[32m200[39m [90m162 ms - 139[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m128 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/9E000000-0000-0000-DA00-000000000000/location[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/39010000-0000-0000-A014-000000000000/location[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/9E000000-0000-0000-DA00-000000000000/location [39m[32m200[39m [90m19 ms - 26[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/39010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m18 ms - 26[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/9E000000-0000-0000-DA00-000000000000/click[39m
-[35m[HTTP][39m [90m{"id":"9E000000-0000-0000-DA00-000000000000"}[39m
-[35m[W3C (189c8733)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 8ECC6EAD-C8EC-4801-9A07-CC1655FED247 with 189c8733-1ea3-48fe-82b2-364917e18858
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/9E000000-0000-0000-DA00-000000000000/click [39m[32m200[39m [90m633 ms - 65[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/39010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"39010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/39010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m629 ms - 65[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
 [35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync [39m[32m200[39m [90m319 ms - 7999[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m323 ms - 5369[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot [39m[32m200[39m [90m94 ms - 835564[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m80 ms - 496304[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Surya']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element [39m[32m200[39m [90m133 ms - 137[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Verify OTP' and @name = 'Verify OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m129 ms - 137[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/window/rect[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/window/rect [39m[32m200[39m [90m29 ms - 48[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m26 ms - 48[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Surya']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/elements [39m[32m200[39m [90m108 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Verify OTP' and @name = 'Verify OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m98 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/52000000-0000-0000-DA00-000000000000/location[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/21010000-0000-0000-A014-000000000000/location[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/52000000-0000-0000-DA00-000000000000/location [39m[32m200[39m [90m18 ms - 26[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/21010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m16 ms - 26[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/52000000-0000-0000-DA00-000000000000/clear[39m
-[35m[HTTP][39m [90m{"id":"52000000-0000-0000-DA00-000000000000"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/52000000-0000-0000-DA00-000000000000/clear [39m[32m200[39m [90m404 ms - 14[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/21010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"21010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/21010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m123 ms - 65[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/52000000-0000-0000-DA00-000000000000/value[39m
-[35m[HTTP][39m [90m{"id":"52000000-0000-0000-DA00-000000000000","text":"Surya Institution","value":["S","u","r","y","a"," ","I","n","s","t","i","t","u","t","i","o","n"]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/element/52000000-0000-0000-DA00-000000000000/value [39m[32m200[39m [90m425 ms - 14[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
 [35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/execute/sync [39m[32m200[39m [90m1283 ms - 17525[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m240 ms - 6006[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858/screenshot [39m[32m200[39m [90m103 ms - 768536[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m94 ms - 430972[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m300 ms - 7858[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[Appium][39m Removing session 189c8733-1ea3-48fe-82b2-364917e18858 from our master session list
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m87 ms - 539880[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Try Again' and @name = 'Try Again']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m143 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m20 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Try Again' and @name = 'Try Again']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m245 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/48010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/48010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m19 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/48010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"48010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/48010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m629 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m232 ms - 5326[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m81 ms - 490388[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Back' and @name = 'Back']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m110 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m21 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Back' and @name = 'Back']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m97 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6D000000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6D000000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m16 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6D000000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"6D000000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6D000000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m119 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m388 ms - 6585[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m89 ms - 739500[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Set Security Questions' and @name = 'Set Security Questions']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m238 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m19 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Set Security Questions' and @name = 'Set Security Questions']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m110 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6D000000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6D000000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m16 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6D000000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"6D000000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/6D000000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m636 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m445 ms - 7992[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m95 ms - 809292[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Start Over' and @name = 'Start Over']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m141 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m23 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Start Over' and @name = 'Start Over']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m126 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/E3000000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/E3000000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m17 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/E3000000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"E3000000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/E3000000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m629 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m443 ms - 11147[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m97 ms - 816340[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Confirm' and @name = 'Confirm']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m180 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m25 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Confirm' and @name = 'Confirm']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m163 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/55010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/55010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m19 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/55010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"55010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/55010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m634 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m241 ms - 6228[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m86 ms - 611640[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeImage' and @name = 'Chevron Right']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m120 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m19 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeImage' and @name = 'Chevron Right']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m105 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/69010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/69010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m16 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/69010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"69010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/69010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m123 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m272 ms - 6908[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m85 ms - 524956[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m508 ms - 8939[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m74 ms - 372812[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'India' and @name = 'India' and @value = 'India']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m303 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m24 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'India' and @name = 'India' and @value = 'India']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m182 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/77010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/77010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m18 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/77010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"77010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/77010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m635 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m238 ms - 6246[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m87 ms - 616580[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Mobile number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m112 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m31 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Mobile number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m95 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/65010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/65010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m16 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/65010000-0000-0000-A014-000000000000/clear[39m
+[35m[HTTP][39m [90m{"id":"65010000-0000-0000-A014-000000000000"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/65010000-0000-0000-A014-000000000000/clear [39m[32m200[39m [90m706 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/65010000-0000-0000-A014-000000000000/value[39m
+[35m[HTTP][39m [90m{"id":"65010000-0000-0000-A014-000000000000","text":"9764013529","value":["9","7","6","4","0","1","3","5","2","9"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/65010000-0000-0000-A014-000000000000/value [39m[32m200[39m [90m219 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m499 ms - 11291[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m90 ms - 665752[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Sign In' and @name = 'Sign In']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m424 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m29 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Sign In' and @name = 'Sign In']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m290 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/61010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/61010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m20 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/61010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"61010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/61010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m132 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m471 ms - 9186[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m85 ms - 657724[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Yes' and @name = 'Yes']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m173 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m20 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Yes' and @name = 'Yes']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m362 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/AD010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/AD010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m19 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/AD010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"AD010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/AD010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m633 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m441 ms - 10139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m84 ms - 586300[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Enter OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m155 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m24 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Enter OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m167 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B0010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B0010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m21 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B0010000-0000-0000-A014-000000000000/clear[39m
+[35m[HTTP][39m [90m{"id":"B0010000-0000-0000-A014-000000000000"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B0010000-0000-0000-A014-000000000000/clear [39m[32m200[39m [90m458 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B0010000-0000-0000-A014-000000000000/value[39m
+[35m[HTTP][39m [90m{"id":"B0010000-0000-0000-A014-000000000000","text":"000000","value":["0","0","0","0","0","0"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/B0010000-0000-0000-A014-000000000000/value [39m[32m200[39m [90m119 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m568 ms - 10135[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m97 ms - 617056[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Verify OTP' and @name = 'Verify OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m190 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m23 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Verify OTP' and @name = 'Verify OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m171 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/C0010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/C0010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m19 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/C0010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"C0010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/C0010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m979 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m162 ms - 4375[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m93 ms - 374716[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Forgot Password?' and @name = 'Forgot Password?']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m88 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m17 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Forgot Password?' and @name = 'Forgot Password?']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m83 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/D5010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/D5010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m15 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/D5010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"D5010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/D5010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m119 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m566 ms - 11077[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m97 ms - 807236[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeImage' and @name = 'Chevron Right']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m134 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m24 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeImage' and @name = 'Chevron Right']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m123 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/EF010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/EF010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m16 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/EF010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"EF010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/EF010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m634 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m258 ms - 6115[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m86 ms - 623084[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeCell']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m193 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m23 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeCell']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m78 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/F6010000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/F6010000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m17 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/F6010000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"F6010000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/F6010000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m627 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m359 ms - 9116[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m91 ms - 682796[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Yes' and @name = 'Yes']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m159 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m19 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Yes' and @name = 'Yes']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m143 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/0E020000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/0E020000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m17 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/0E020000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"0E020000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/0E020000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m629 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m567 ms - 10127[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m88 ms - 584692[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Enter OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m150 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m35 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @value = 'Enter OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m138 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/11020000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/11020000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m19 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/11020000-0000-0000-A014-000000000000/clear[39m
+[35m[HTTP][39m [90m{"id":"11020000-0000-0000-A014-000000000000"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/11020000-0000-0000-A014-000000000000/clear [39m[32m200[39m [90m457 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/11020000-0000-0000-A014-000000000000/value[39m
+[35m[HTTP][39m [90m{"id":"11020000-0000-0000-A014-000000000000","text":"000000","value":["0","0","0","0","0","0"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/11020000-0000-0000-A014-000000000000/value [39m[32m200[39m [90m125 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m450 ms - 10123[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m88 ms - 616584[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Verify OTP' and @name = 'Verify OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element [39m[32m200[39m [90m291 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/window/rect [39m[32m200[39m [90m28 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Verify OTP' and @name = 'Verify OTP']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/elements [39m[32m200[39m [90m283 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/21020000-0000-0000-A014-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/21020000-0000-0000-A014-000000000000/location [39m[32m200[39m [90m19 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/21020000-0000-0000-A014-000000000000/click[39m
+[35m[HTTP][39m [90m{"id":"21020000-0000-0000-A014-000000000000"}[39m
+[35m[W3C (c29c1768)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId E616A876-C84B-4ED5-9883-FDC946AB5C94 with c29c1768-8e61-45e7-b2d7-55b078760de4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/element/21020000-0000-0000-A014-000000000000/click [39m[32m200[39m [90m972 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/execute/sync [39m[32m200[39m [90m343 ms - 6166[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4/screenshot [39m[32m200[39m [90m87 ms - 682940[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session c29c1768-8e61-45e7-b2d7-55b078760de4 from our master session list
 [35m[DevCon Factory][39m Releasing connections for 7CDE8E13-D5AA-48F4-8A39-0A9EA663DF69 device on any port number
-[35m[DevCon Factory][39m Found cached connections to release: ["7CDE8E13-D5AA-48F4-8A39-0A9EA663DF69:65412"]
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/189c8733-1ea3-48fe-82b2-364917e18858 [39m[32m200[39m [90m29 ms - 14[39m
+[35m[DevCon Factory][39m Found cached connections to release: ["7CDE8E13-D5AA-48F4-8A39-0A9EA663DF69:51164"]
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/c29c1768-8e61-45e7-b2d7-55b078760de4 [39m[32m200[39m [90m53 ms - 14[39m
 [35m[HTTP][39m [90m[39m
